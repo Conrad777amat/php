@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Document</title>
+	<script defer src="bedanktpagina.js"></script>
+</head>
+<body>
+	<div class =thankyoucontent>
+        <div class="wrapper-1">
+           <div class="wrapper-2">
+              <img src="/webshop/fotos/bokoedro.jpg" alt="thank-you-envelope" border="0">
+
+              <div id="THANK YOU <3333">
+                <script>
+                    document.getElementById ("bedankt").innerHTML = "beste" +" " + localStorage.getItem ("naam") +",bedankt voor uw bestelling bij cara";
+                    </script>
+              </div>
+
+              <div id="tekts">
+                <script>
+                    document.getElementById ("tekts").innerHTML = "uw order word bezorg op" + " "+ localStorage.getItem ("adres");
+                </script>
+              </div>
+              <div id="postcode">
+                <script>
+                    document.getElementById ("postcode").innerHTML = "op de postcode" +" " + localStorage.getItem ("postcode");
+                    </script>
+              </div>
+             <button class="go-home"><a href="index.html">
+               home page</a>
+             </button>
+           </div>
+         
+           <div class="footer-like">
+             <p>
+             </p>
+           </div>
+       </div>
+
+</body>
+</html>

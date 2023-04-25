@@ -1,0 +1,48 @@
+html, body {
+    padding: 0;
+    margin: 0; 
+}
+.topfoto{
+    width: 100%;
+}
+
+.bestellen{
+    padding: 20%;
+    font-style: oblique;
+    background-color: black;
+    background-size:100% ;
+    text-transform: uppercase;
+
+}
+.lijst{
+    background-color: darkred;
+    filter: opacity(85%);
+}
+.naam{
+    padding: 2%
+}
+.straatnaamnummer{
+    padding: 2%
+}
+.postcodewoonplaats{
+    padding: 2%
+}
+.telefoonnr{
+    padding: 2%
+}
+.email{
+    padding: 2%
+}
+.bestelnr{
+    padding: 2%
+}
+.aantal{
+    padding: 2%
+}
+.kleur{
+    padding: 2%
+}
+.verzenden{
+    margin-left: 45%;
+    padding-bottom: 5%;
+}
